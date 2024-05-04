@@ -11,7 +11,7 @@
 
     --nav-background-color:var(--accent1-color);
     --nav-link-color:var(--secondary-color);
-    --nav-hover-link-color:var(--nav-hover-link-color);
+    --nav-hover-link-color:var(--accent1-color);
     --nav-hover-background-color:var(--accent2-color);
 
 }
