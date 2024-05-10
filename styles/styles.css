@@ -53,11 +53,11 @@ main img {
 aside  {
     width: 20em;
     text-align: center;
-    position: absolute;
+    position: relative;
 }
 
 aside h2 {
-    /* position: absolute; */
+    position: relative;
 
 }
 aside img {
