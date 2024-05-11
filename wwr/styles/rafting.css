@@ -11,6 +11,7 @@
     --secondary-color: #9B9ECE;
     --accent1-color: #6665DD;
     --accent2-color: #000500;
+    --text-heading-color:  rgb(223, 207, 207);
 
     --heading-font: 'Plus Jakarta Sans', sans-serif;
     --paragraph-font: 'Plus Jakarta Sans', sans-serif;
@@ -26,10 +27,13 @@ h2 {
     color: var(--accent1-color);
     padding-top: 20px;
     padding-bottom: 20px;
+    font: 25px var(--heading-font)
+    
 }
 
 p {
     padding: 10px;
+    font: var(--paragraph-font)
 }
 /* Class definitions */
 .hero {
@@ -51,7 +55,7 @@ p {
     width: 100%;
     text-align: center;
     font-family: var(--heading-font);
-    color: rgba(223, 207, 207, 0.73);
+    color: var(--text-heading-color);
 }
 
 
@@ -65,7 +69,7 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
-    color: rgba(239, 231, 231, 0.956);
+    color: var(--text-heading-color);
 }
 .hero-sub {
     width:80%;
