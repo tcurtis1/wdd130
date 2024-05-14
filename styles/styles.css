@@ -54,17 +54,18 @@ aside  {
     width: 20em;
     text-align: center;
     position: relative;
+    
+    
 }
 
 aside h2 {
-    position: relative;
+    position: absolute;
+    top: 70px;
+    right: 105px;
+    
 
 }
-aside img {
-    /* position: absolute; */
-    bottom: 10px;
-    left: 150px;
-}
+
 footer {
     
     margin-top: 15px;
@@ -73,16 +74,20 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    position: absolute;
+    
 }
 
 /* Class Selectors */
 .box {
 
     clear: both;
-    margin: 1rem;
+    margin: 1.5rem;
     border: 1px solid rgba(0, 90, 245, 0.8);
     padding: 1rem;
     background-color: rgba(210,180,140,0.8);
     color: #000;
+    
+}
+.image2 {
+    margin-top: 40px;
 }
