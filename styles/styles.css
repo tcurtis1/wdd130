@@ -73,6 +73,10 @@ aside  {
     
     
 }
+footer, header, .grid {
+    border-top: 1px solid #000;
+    text-align: center;
+    }
 
 aside h2 {
     position: absolute;
@@ -82,11 +86,6 @@ aside h2 {
 
 }
 
-footer, header, .grid {
-    border-top: 1px solid #000;
-    text-align: center;
-    
-}
 
 /* Class Selectors */
 .box {
