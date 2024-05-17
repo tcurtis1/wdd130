@@ -10,8 +10,6 @@ nav {
     color: whitesmoke;
     justify-content: space-evenly;
     align-items: center;
-    
-    
     background-color: steelblue;
     padding: 10px
 }
@@ -85,18 +83,14 @@ aside h2 {
 }
 
 footer, header, .grid {
-    
-    
     border-top: 1px solid #000;
     max-width: 840px;
-    
     text-align: center;
     
 }
 
 /* Class Selectors */
 .box {
-    
     clear: both;
     margin: 1.5rem;
     border: 1px solid rgba(0, 90, 245, 0.8);
