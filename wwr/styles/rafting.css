@@ -7,38 +7,80 @@
 
 
 :root {
-    --primary-color: #ACADBC;
-    --secondary-color: #9B9ECE;
-    --accent1-color: #6665DD;
-    --accent2-color: #000500;
-    --text-heading-color:  rgb(223, 207, 207);
+    --primary-color: rgba(40, 61, 59, 1);
+    --secondary-color: rgba(25, 114, 120, 1);
+    --accent1-color: rgb(22, 48, 87);
+    --accent2-color: rgba(196, 69, 54, 1);
+    --accent3-color:  rgba(119, 46, 37, 1);
+    --box-background-color: rgba(147, 209, 200, 0.285);
 
     --heading-font: 'Plus Jakarta Sans', sans-serif;
     --paragraph-font: 'Plus Jakarta Sans', sans-serif;
 
-    --nav-background-color: var(--accent1-color);
+    --nav-background-color: var(--box-background-color);
     --nav-link-color: var(--secondary-color);
     --nav-hover-link-color: var(--accent1-color);
     --nav-hover-background-color: var(--accent2-color);
 }
 
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px .4fr 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+header h1 {
+    color: var(--secondary-color);
+}
+h1 {
+	font-size: 1.3rem;
+    font-family: var(--heading-font);
+	font-family: Acme, Arial, sans-serif;
+    
+}
+nav {
+    text-align:center;
+    
 
+}
 h2 {
-    color: var(--accent1-color);
+    color: var(--secondary-color);
+    font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
     font: 25px var(--heading-font)
     
 }
-
+section h2 {
+    text-align: center;
+}
 p {
     padding: 10px;
     font: var(--paragraph-font)
 }
 /* Class definitions */
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    justify-content:flex-start;
+ 
+}
+
+.main-nav a {
+    list-style: none;
+    font: var(--paragraph-font);
+    font-size: 18px;
+    color: var(--nav-link-color);
+    
+    text-decoration: none;
+    margin: 0px 5px 1px 40px;
+    
+}
 .hero {
     position: relative;
-    
     height: 400px; 
 }
 
@@ -51,11 +93,14 @@ p {
 .hero h1 {
     position: absolute;
     top: 20px;
-    background-color: rgba(40, 24, 24, 0.4);
+    background-color: var(--box-background-color);
     width: 100%;
     text-align: center;
     font-family: var(--heading-font);
-    color: var(--text-heading-color);
+    color: rgb(84, 32, 40);
+    padding: 10px;
+    font-weight: 1000;
+    font-size: 30px;
 }
 
 
@@ -64,13 +109,17 @@ p {
     position: absolute;
     top: 200px;
     /* size: 100px; */
-    background-color: rgba(125, 109, 109, 0.521);
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    color: var(--text-heading-color);
+    background-color: var(--box-background-color);
+    padding: 20px;
+    color: var(--primary-color);
+    font: var(--paragraph-font);
 }
+article p {
+    color: black;
+    font-size: 19px;
+    margin: 5px;
+}
+
 .hero-sub {
     width:80%;
     height: auto;
@@ -80,16 +129,42 @@ p {
 }
 .hero-sub img {
     float: right;
-    width: 200px;
+    width: 220px;
     border: 1px solid white;
     
 }
 
 .logo-sm {
-    width: 150px;
-    height: auto;
+    margin: 0 0.25rem 0 1rem;
+	width: 100px;
+	height: auto;
+    
 }
 .sociallinks img {
-    width: 5%;
+    width: 9%;
     height: auto;
+    font: var(--paragraph-font);
+    /* margin: 5px 5px 5px 1px; */
+}
+figcaption {
+    text-align: center;
+}
+.figure_flex {
+    display: flex;
+}
+figure img {
+    width: 200px;
+}
+figure {
+    padding: 0px;
+    margin: 10px;
+}
+footer {
+    margin-top: 30px;
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: right;
+    
+
+
 }
