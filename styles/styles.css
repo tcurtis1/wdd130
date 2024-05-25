@@ -72,7 +72,7 @@ aside  {
     grid-row: 1/2;
 }
 
-header, .grid {
+header, footer, .grid {
     margin: 0 auto;
     max-width: 840px;
 }
