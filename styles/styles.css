@@ -81,23 +81,26 @@ aside h2 {
     position: absolute;
     top: 70px;
     right: 95px;
-    
-
 }
 
 
 /* Class Selectors */
-.box {
+.box, .box2{
     clear: both;
     margin: 1.5rem;
     border: 1px solid rgba(0, 90, 245, 0.8);
-    padding-left: 30px;
+    padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgba(210,180,140,0.8);
     color: #000;
     
 }
+.box2, a {
+    padding-left: 30px;
+    color: steelblue;
+}
+
 .image2 {
     margin-top: 40px;
 }
