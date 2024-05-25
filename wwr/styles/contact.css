@@ -86,7 +86,7 @@ main {
 }
   
 header {
-	margin: 1rem auto;
+	margin: 20px;
 	display: grid;
 	grid-template-columns: 120px .4fr 1fr;
 	align-items: center;
@@ -111,7 +111,7 @@ nav {
 section h2 {
     text-align: center;
     padding: 10px;
-    border-bottom: 1px black solid;
+    border-bottom: 1px solid #ccc;
     margin-bottom: 10px;
 }
 p {
