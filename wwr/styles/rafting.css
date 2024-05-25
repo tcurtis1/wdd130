@@ -12,7 +12,7 @@
     --accent1-color: rgb(22, 48, 87);
     --accent2-color: rgba(196, 69, 54, 1);
     --accent3-color:  rgba(119, 46, 37, 1);
-    --box-background-color: rgba(147, 209, 200, 0.285);
+    --box-background-color: #242e2c59;
 
     --heading-font: 'Plus Jakarta Sans', sans-serif;
     --paragraph-font: 'Plus Jakarta Sans', sans-serif;
@@ -80,6 +80,8 @@ p {
     
 }
 .hero {
+    display: flex;
+    justify-content: space-around;
     position: relative;
     height: 400px; 
 }
@@ -91,13 +93,15 @@ p {
     object-fit: cover;  
 }
 .hero h1 {
+    display: flex;
+    justify-content:space-around;
     position: absolute;
     top: 20px;
     background-color: var(--box-background-color);
-    width: 100%;
-    text-align: center;
+    width: 60%;
+    /* text-align: center; */
     font-family: var(--heading-font);
-    color: rgb(84, 32, 40);
+    color: white;
     padding: 10px;
     font-weight: 1000;
     font-size: 30px;
@@ -107,7 +111,7 @@ p {
 .hero article {
     
     position: absolute;
-    top: 200px;
+    top: 120px;
     /* size: 100px; */
     background-color: var(--box-background-color);
     padding: 20px;
@@ -115,15 +119,17 @@ p {
     font: var(--paragraph-font);
 }
 article p {
-    color: black;
-    font-size: 19px;
-    margin: 5px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 35px;
+
 }
 
 .hero-sub {
     width:80%;
     height: auto;
-    right: 50px;
+    right: 100px;
     
     
 }
@@ -149,16 +155,19 @@ article p {
 figcaption {
     text-align: center;
 }
-.figure_flex {
+.fig_container {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 figure img {
-    width: 200px;
+    width: 150px;
+    height: auto;
 }
-figure {
+/* figure {
     padding: 0px;
     margin: 10px;
-}
+} */
 footer {
     margin-top: 30px;
     display: flex;
