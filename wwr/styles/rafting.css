@@ -22,7 +22,17 @@
     --nav-hover-link-color: var(--accent1-color);
     --nav-hover-background-color: var(--accent2-color);
 }
-
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
 header {
 	margin: 1rem auto;
 	display: grid;
@@ -57,7 +67,7 @@ section h2 {
     text-align: center;
 }
 p {
-    padding: 10px;
+    padding: 20px;
     font: var(--paragraph-font)
 }
 /* Class definitions */
@@ -112,7 +122,7 @@ p {
     
     position: absolute;
     top: 120px;
-    /* size: 100px; */
+    justify-content: center;
     background-color: var(--box-background-color);
     padding: 20px;
     color: var(--primary-color);
@@ -129,7 +139,7 @@ article p {
 .hero-sub {
     width:80%;
     height: auto;
-    right: 100px;
+    
     
     
 }
@@ -171,7 +181,8 @@ figure img {
 footer {
     margin-top: 30px;
     display: flex;
-    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 3px;
     justify-content: right;
     
 
