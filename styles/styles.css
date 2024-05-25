@@ -72,9 +72,19 @@ aside  {
     grid-row: 1/2;
 }
 
-header, footer, .grid {
+header, .grid {
     margin: 0 auto;
     max-width: 840px;
+}
+
+footer {
+    max-width: 840px;
+    text-align: center;
+    border-top: 1px solid black;
+    margin: 0 auto; /* Center the footer horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 aside h2 {
