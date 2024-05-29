@@ -47,8 +47,6 @@ main {
 .company-info {
     display: flex;
     align-items: flex-start;
-    
-    
 }
 
 .employee-profiles .profile {
@@ -63,13 +61,13 @@ main {
 }
 
 .contact-form label {
-    margin: 5px 0;
+    margin: 5px;
 }
 
 .contact-form input, .contact-form textarea, .contact-form button {
     margin: 5px 0;
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
 }
 .map {
     flex: 1;
@@ -103,11 +101,6 @@ h1 {
     padding-bottom: 30px;
     color: var(--secondary-color);
     
-}
-nav {
-    text-align:center;
-    
-
 }
 h2 {
     color: var(--secondary-color);
@@ -255,7 +248,16 @@ footer {
 
 button {
     border-radius: 10px;
+    width: 140px;
+    font-weight: 800;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    
+    
 }
+
+
 fieldset, label {
     padding: 5px;
 }
