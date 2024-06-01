@@ -320,32 +320,32 @@ figure img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
-    gap: 20px; /* Adjust the gap as needed */
+    gap: 20px; 
 }
 
 .nexttrip a {
     text-decoration: none;
-    display: flex; /* Make anchor a flex container */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    height: 100%; /* Ensure full height of the grid cell */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
 }
 
 .nexttrip p {
-    background-color: #e9ecef; /* Light grey background for contrast */
+    background-color: #e9ecef; 
     padding: 15px;
     border-radius: 5px;
-    border: 1px solid #ccc; /* Subtle border */
-    color: #000; /* Black font for normal text */
+    border: 1px solid #ccc; 
+    color: #000; 
     transition: background-color 0.3s, border-color 0.3s, font-weight 0.3s, color 0.3s; /* Smooth hover transition */
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
 .nexttrip p:hover {
-    background-color: #d1e7f1; /* Slightly darker grey on hover */
-    border-color: #0077b6; /* Matching border color on hover */
-    font-weight: bold; /* Bold font on hover */
-    color: #000; /* Black font on hover */
+    background-color: #d1e7f1;
+    border-color: #0077b6; 
+    font-weight: bold;
+    color: #000; 
 }
 
 .nexttrip h3 {
@@ -354,7 +354,30 @@ figure img {
     padding: 20px;
     background-color: var(--accent1-color);
     border-radius: 5px;
-    border: 1px solid #e0a800; /* Matching border color */
     color: #fff;
     font-weight: bold;
+}
+.about-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px; 
+    
+    max-width: 960px;
+    font-family: var(--paragraph-font);
+    line-height: 1.6;
+    color: #333;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--secondary-color); 
+}
+
+.about-section p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 1.1em;
 }
